@@ -8,3 +8,17 @@ Uses requests to access https://translate.google.com/ and fetches the translated
 
 #### install:
     `pip install ptranslator`
+
+
+#### Usage:
+ `ptranslator "text" to_language(default=en) from_language(optional)`
+ 
+ ###### _In command line:_
+    ```
+    > ptranslator "Hallo Welt!"
+    Hello World!
+    > ptranslator "Здраво Свете!" en
+    Hello World!
+    > ptranslator "Hola Mundo!" en es
+    Hello World!
+    ```
