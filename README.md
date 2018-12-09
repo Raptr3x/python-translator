@@ -1,8 +1,5 @@
 # python-translator
 
-.. image:: https://img.shields.io/pypi/v/pip.svg
-   :target: https://pypi.org/project/ptranslator/
-
 Simple yet effective module for translating. 
 
 ### Can translate more than 5000 characters unlike Google Translate
