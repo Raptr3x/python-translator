@@ -21,7 +21,7 @@ __[PyPI](https://pypi.org/project/ptranslator/)__
     _Probably won't run unless you use `sudo` when installing_
 
 * ##### _installation problems:_
-    In this case refer to this [article](https://stackoverflow.com/questions/36092388/adding-installed-pip-package-to-path-automatically) or if you need any aditional help please feel free to contact me :)
+    In this case refer to this [article](https://stackoverflow.com/a/36160069/7775953) or if you need any aditional help please feel free to contact me :)
 
 #### Usage:
  `ptranslator "text" to_language(default=en) from_language(optional)`
