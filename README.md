@@ -27,7 +27,7 @@ Uses requests to access https://translate.google.com/ and fetches the translated
  `ptranslator "text" to_language(default=en) from_language(optional)`
  
  ###### _In command line:_
-    ```
+    ```Shell
     > ptranslator "Hallo Welt!"
     Hello World!
     > ptranslator "Здраво Свете!" en
