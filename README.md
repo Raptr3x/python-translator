@@ -26,8 +26,8 @@ Uses requests to access https://translate.google.com/ and fetches the translated
 #### Usage:
  `ptranslator "text" to_language(default=en) from_language(optional)`
  
- ###### _In command line:_
-    ```Shell
+ * ###### _In command line:_
+    ```
     > ptranslator "Hallo Welt!"
     Hello World!
     > ptranslator "Здраво Свете!" en
@@ -35,3 +35,11 @@ Uses requests to access https://translate.google.com/ and fetches the translated
     > ptranslator "Hola Mundo!" en es
     Hello World!
     ```
+ * ###### _in python script:_
+    ```
+    from ptranslator import translate
+    # translate( text , to_language , from_language )
+    translate("Hello World!", "de")  #second and third arguments are optional
+    #output: Hallo Welt!
+    ```
+ 
