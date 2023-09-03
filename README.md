@@ -5,7 +5,7 @@ Simple yet effective module for translating.
 
 Uses requests to access https://translate.google.com/ and fetches the translated text.
 
-###Not supported anymore
+### Not supported anymore
 
 #### installation:
 
